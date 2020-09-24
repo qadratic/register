@@ -11,6 +11,7 @@ import { useFormik } from 'formik'
 import Axios from 'axios';
 import FacebookButton from './components/FacebookButton';
 import { AppContainer } from './styles';
+import Seperator from './components/Seperator';
 
 function App() {
 
@@ -67,7 +68,7 @@ function App() {
 					<FacebookButton setLogin={setLogin} />
 				</div>
 				<br />
-				<div>or</div>
+				<Seperator />
 				<br />
 				<form style={{ ...customStyles.input }} onSubmit={formik.handleSubmit} >
 					<TextField variant='outlined' label='First Name' style={{ ...customStyles.input }} name='firstName' onChange={formik.handleChange} value={formik.values.firstName} />
