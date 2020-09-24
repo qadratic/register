@@ -63,7 +63,7 @@ function App() {
 				<Typography variant='body1' >Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
 				<br />
 				<div style={{ ...customStyles.input }} >
-					{/* doesn't work yet */}
+
 					<GoogleBtn setLogin={setLogin} />{' '}
 					<FacebookButton setLogin={setLogin} />
 				</div>
