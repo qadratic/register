@@ -21,7 +21,7 @@ npm start
 ```
 ## Issues
 
-Google authentication does not work
+Google authentication does not work because there was an issue with response interception so redirection was not possible.
 
 ## Deployment
 
